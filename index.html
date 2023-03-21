@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="productsnew.json">Products shop json</a>
+
+    <a href="singleproduct.json">Single product json</a>
+
+    <div id="myData"></div>
+    <script>
+        fetch("productsnew.json")
+            .then(function (response) {
+                return response.json();
+            })
+            .then(function (data) {
+                appendData(data);
+            })
+            .catch(function (err) {
+                console.log('error: ' + err);
+            });
+
+        function appendData(data) {
+            let mainContainer = document.getElementById("myData");
+            for (let i = 0; i < data.length; i++) {
+                let div = document.createElement("div");
+                div.innerHTML = 'Name: ' + data[i].name + ' Id: ' + data[i].id;
+                mainContainer.appendChild(div);
+            }
+        }
+    </script>
+    
+</body>
+</html>
