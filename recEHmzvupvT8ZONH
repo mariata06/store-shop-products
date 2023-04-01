@@ -1,18 +1,19 @@
 {
-    "id": "rec3jeKnhInKHJuz2",
+    "id": "recEHmzvupvT8ZONH",
     "stock": 0,
-    "price": 120999,
+    "price": 109999,
     "shipping": true,
     "colors": [
-        "#ff0000"
+        "#000",
+        "#ffb900"
     ],
-    "category": "office",
+    "category": "living room",
     "images": [
         {
-            "id": "rec3jeKnhInKHJuz2",
+            "id": "recEHmzvupvT8ZONH",
             "width": 1280,
             "height": 720,
-            "url": "https://images2.imgbox.com/7d/38/z0zPcZg3_o.jpeg",
+            "url": "https://estorishomezonelive.blob.core.windows.net/thumbs/0026517_athena-sectional-with-right-arm-facing-chaise.jpeg",
             "filename": "product-6.jpg",
             "size": 178908,
             "type": "image/jpeg",
@@ -141,7 +142,7 @@
     ],
     "reviews": 60,
     "stars": 5,
-    "name": "emperor bed",
-    "description": "Aenean vulputate nulla ut ex ultrices, vel porttitor metus varius. Donec faucibus mauris sed felis semper suscipit. Nunc venenatis rhoncus magna ac tristique. Nullam id turpis rhoncus, interdum lorem ut.",
-    "company": "ikea"
+    "name": "albany sectional",
+    "description": "Duis erat urna, dapibus vel diam vitae, egestas laoreet turpis. Duis vitae nunc urna. Nunc faucibus at metus vitae egestas. Suspendisse potenti. In dictum tortor in tortor blandit vulputate. Phasellus.",
+    "company": "liddy"
 }
